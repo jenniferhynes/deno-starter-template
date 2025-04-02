@@ -9,7 +9,7 @@ import * as mf from "mock-fetch/mod.ts";
 
 const { createContext } = SlackFunctionTester("sample_function");
 
-// Replaces globalThis.fetch with the mocked copy
+// claudia pull request test
 mf.install();
 
 // Shared mocks can be defined at the top level of tests
