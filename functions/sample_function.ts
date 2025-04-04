@@ -6,6 +6,7 @@ import SampleObjectDatastore from "../datastores/sample_datastore.ts";
  * inputs, perform calculations, and provide outputs. Functions can
  * be used independently or as steps in workflows.
  * https://api.slack.com/automation/functions/custom
+ * Claudia Sellers real time analytics feature Rate limit increase for real-time data pulls server/EC3
  */
 export const SampleFunctionDefinition = DefineFunction({
   callback_id: "sample_function",
